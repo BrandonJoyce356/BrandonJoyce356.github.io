@@ -1,0 +1,10 @@
+# Site settings
+title: Brandon Joyce's Blog 
+email: brandon@sonerdy.com 
+description: "This is my blog about technology or whatever else is on my mind."
+baseurl: ""
+url: "http://sonerdy.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
