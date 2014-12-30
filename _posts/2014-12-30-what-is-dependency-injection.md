@@ -1,17 +1,9 @@
 ---
 layout: post
-title: Top 3 Reasons Why Dependency Injection Containers Are Not Idiomatic in Ruby 
-permalink: top-3-reasons-dependency-injection-not-idiomatic-ruby 
+title: What is Dependency Injection? 
+permalink: what-is-dependency-injection 
 ---
 
-A little over 6 months ago I took a full time Ruby development job at [CoverMyMeds](https://www.covermymeds.com)
-I'm primarily a Microsoft stack developer, but I've dabbled with Ruby (and other languages) for side projects since around 2008. 
-Going full-time Ruby made me want to work much harder on making sure my Ruby code was idiomatic. 
-I've learned some really cool things, but the thing that was somewhat challenging was giving up dependency injection.
-This post will cover the top 3 reasons I think dependency injection has diminished value in Ruby. 
-
-What is Dependency Injection?
-=============================
 Dependency injection is a basic object-oriented pattern for complying with [Dependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (DIP).
 Note they are not the same thing.  Injection is just a sort of implementation of DIP.
 A C# example would be to pass dependencies to your constructor rather than using the 'new' keyword.
