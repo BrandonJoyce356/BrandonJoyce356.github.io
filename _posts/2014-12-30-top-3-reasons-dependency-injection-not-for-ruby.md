@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Top 3 Reasons Why Dependency Injection Containers Are Idiomatic in Ruby 
+title: Top 3 Reasons Why Dependency Injection Containers Are Not Idiomatic in Ruby 
 permalink: top-3-reasons-dependency-injection-not-idiomatic-ruby 
 ---
 
