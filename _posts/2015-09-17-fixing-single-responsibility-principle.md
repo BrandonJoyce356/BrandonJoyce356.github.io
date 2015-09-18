@@ -4,11 +4,13 @@ title: Fixing Single Responsibility Principle
 permalink: fixing-single-responsibility-principle
 ---
 
+Sara Mei's talk at Windy City Rails ([Is Your Code Too SOLID?](http://forwardjs.com/university/is-your-code-too-solid)) this year got me thinking.
+
 Single Responsibility Principle is broken!
 
 Don't get me wrong.
 I love SRP.
-I believe it was Corey Haines that told me once that SRP is likely the basis for all other principles and patterns.
+Corey Haines once told me that SRP is likely the basis for all other principles and patterns.
 That may or may not be true, but the fact is, this principle is super important and well known among software developers.
 
 #### Single Responsibility Principle (According to Uncle Bob)
@@ -42,4 +44,4 @@ Maybe I've got the wrong idea here.
 Maybe principles are supposed to be more mathematic and exact.
 I just think "Suitable Responsibility Principle" more effectively encourages an appropriate design for the situation.
 
-I'm very curious to see what folks think of these crazy thoughts!  Please comment!
+I'm very curious to see what folks think!  Please comment!
