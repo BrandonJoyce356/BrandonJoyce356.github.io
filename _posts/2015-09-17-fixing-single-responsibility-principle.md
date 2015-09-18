@@ -10,7 +10,7 @@ Single Responsibility Principle is broken!
 
 Don't get me wrong.
 I love SRP.
-Corey Haines once told me that SRP is likely the basis for all other principles and patterns.
+[Corey Haines](http://articles.coreyhaines.com/) once told me that SRP is likely the basis for all other principles and patterns.
 That may or may not be true, but the fact is, this principle is super important and well known among software developers.
 
 #### Single Responsibility Principle (According to Uncle Bob)
