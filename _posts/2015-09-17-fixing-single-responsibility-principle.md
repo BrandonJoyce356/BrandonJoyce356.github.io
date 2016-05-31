@@ -4,7 +4,7 @@ title: Fixing Single Responsibility Principle
 permalink: fixing-single-responsibility-principle
 ---
 
-Sara Mei's talk at Windy City Rails ([Is Your Code Too SOLID?](http://forwardjs.com/university/is-your-code-too-solid)) this year got me thinking.
+Sara Mei's talk at Windy City Rails ([Is Your Code Too SOLID?](https://vimeo.com/136245794)) this year got me thinking.
 
 Single Responsibility Principle is broken!
 
