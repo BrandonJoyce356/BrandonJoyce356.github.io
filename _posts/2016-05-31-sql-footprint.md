@@ -5,7 +5,7 @@ permalink: sql-footprint-gem
 ---
 
 I just wanted to leave some notes on [a new gem](https://github.com/covermymeds/sql_footprint) that I and some folks from my day job put together to solve a couple of specific problems.
-The sql_footprint gem tracks queries that ActiveRecord uses when you run your tests, and creates a footprint file with actual sql in it showing what queries are actually being executed.
+The sql_footprint gem tracks queries that ActiveRecord uses when you run your tests, and creates a footprint.sql file showing what queries are actually being executed.
 It also canonicalizes and dedupes similar queries so you're just seeing unique types of queries in the footprint.  
 
 ## Why is this useful?
