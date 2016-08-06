@@ -16,7 +16,7 @@ defmodule NoMocksTest do
   end
 
   defp io_stub do
-    %{ puts: fn(msg) -> send(self(), {:puts, msg}) end }
+    %{puts: fn(msg) -> send(self(), {:puts, msg}) end}
   end
 end
 
