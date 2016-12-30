@@ -1,0 +1,8 @@
+#!/bin/bash
+SECS=$1
+while [[ 0 -ne $SECS ]]; do
+  echo "Show starting in $SECS.."
+  sleep 1
+  SECS=$[$SECS-1]
+done
+say "The show is starting, let's do this thing."
