@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/brandonjoyce
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sonerdy.com
+  * I am brandonjoyce (https://keybase.io/brandonjoyce) on keybase.
+  * I have a public key ASCBLedJughd6ekvB6LEfCZJXeygNb5u-VwJQk2dSCriNAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120812de749ba085de9e92f07a2c47c26495deca035be6ef95c09424d9d482ae2340a",
+            "host": "keybase.io",
+            "kid": "0120812de749ba085de9e92f07a2c47c26495deca035be6ef95c09424d9d482ae2340a",
+            "uid": "1c8746d910f5768e53c616de335c9e00",
+            "username": "brandonjoyce"
+        },
+        "service": {
+            "hostname": "sonerdy.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487950001,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487949934,
+        "hash": "822e16bfa7e792322e57a9a509f88aea3c2f30d0971a86b509a83f2dc1a2e92619382838933094bc2a700bae133bb7c30a81290d55a8dd3c712dc6004a873bae",
+        "seqno": 920656
+    },
+    "prev": "1112018cd693a679bd2cfa8083d836965a9fd63e8962dbc4a8a947e4135b2374",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggS3nSboIXenpLweixHwmSV3soDW+bvlcCUJNnUgq4jQKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODEyZGU3NDliYTA4NWRlOWU5MmYwN2EyYzQ3YzI2NDk1ZGVjYTAzNWJlNmVmOTVjMDk0MjRkOWQ0ODJhZTIzNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODEyZGU3NDliYTA4NWRlOWU5MmYwN2EyYzQ3YzI2NDk1ZGVjYTAzNWJlNmVmOTVjMDk0MjRkOWQ0ODJhZTIzNDBhIiwidWlkIjoiMWM4NzQ2ZDkxMGY1NzY4ZTUzYzYxNmRlMzM1YzllMDAiLCJ1c2VybmFtZSI6ImJyYW5kb25qb3ljZSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic29uZXJkeS5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg3OTUwMDAxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODc5NDk5MzQsImhhc2giOiI4MjJlMTZiZmE3ZTc5MjMyMmU1N2E5YTUwOWY4OGFlYTNjMmYzMGQwOTcxYTg2YjUwOWE4M2YyZGMxYTJlOTI2MTkzODI4Mzg5MzMwOTRiYzJhNzAwYmFlMTMzYmI3YzMwYTgxMjkwZDU1YThkZDNjNzEyZGM2MDA0YTg3M2JhZSIsInNlcW5vIjo5MjA2NTZ9LCJwcmV2IjoiMTExMjAxOGNkNjkzYTY3OWJkMmNmYTgwODNkODM2OTY1YTlmZDYzZTg5NjJkYmM0YThhOTQ3ZTQxMzViMjM3NCIsInNlcW5vIjoxMiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECrtzjjTgOzXMNQ/MMNJ3X/rwi1zh02oFZw8GiHtyCJ0Asq4Pn+e8bP+7Uio+vhDMdkQ86rxk6aKacHxqWFLKcJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg/JrsS3d7VhVvVODtDj8xjvZM8R/tm+PaPrfNqtfOrtmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brandonjoyce
+
+==================================================================
+
