@@ -1,5 +1,6 @@
 ---
 title: Testing Elixir
+category: Elixir
 layout: post
 ---
 

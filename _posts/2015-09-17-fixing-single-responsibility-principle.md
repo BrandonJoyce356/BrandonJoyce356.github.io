@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fixing Single Responsibility Principle
+category: Software Engineering
 permalink: fixing-single-responsibility-principle
 ---
 

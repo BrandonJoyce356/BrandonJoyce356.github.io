@@ -1,6 +1,7 @@
 ---
 title: MicroCast 02 - Elixir Avoiding Mocks
 layout: video
+category: Elixir
 livecoding_embed_url: "https://www.livecoding.tv/brandonjoyce/videos/Dp6Em/embed"
 code_download: /downloads/micro_cast_02.zip
 ---

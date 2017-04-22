@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Saving a Base64 Encoded File w/ Elixir
+category: Elixir
 permalink: saving-base64-encoded-file-elixir
 ---
 

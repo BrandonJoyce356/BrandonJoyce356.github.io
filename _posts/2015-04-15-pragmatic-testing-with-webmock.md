@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pragmatic Testing With Webmock
+category: Ruby
 permalink: pragmatic-testing-with-webmock
 ---
 

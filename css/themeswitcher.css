@@ -1,0 +1,30 @@
+.themeswitcher {
+	position: fixed;
+	left: -200px;
+	top: 110px;
+	background: #fff;
+	width: 250px;
+	height: 50px;
+	z-index: 1;
+	border-radius: 0 5px 5px 0;
+}
+
+.themeswitcher .toggle {
+	float: right;
+	font-size: 2em;
+	margin: 7px 13px;
+	cursor: pointer;
+}
+
+.themeswitcher.open {
+	left: 0;
+	height: 210px;
+}
+
+.themeswitcher .themes {
+	margin: 18px 10px 10px;
+	display: none;
+}
+.themeswitcher.open .themes {
+	display: block;
+}

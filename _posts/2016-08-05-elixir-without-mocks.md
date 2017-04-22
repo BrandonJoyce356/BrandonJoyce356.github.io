@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Elixir Without Mocks - A Succinct Example
+category: Elixir
 permalink: elixir-without-mocks
 ---
 Wrapping my head around why mocking is less favored in Elixir than in Ruby (and other languages).

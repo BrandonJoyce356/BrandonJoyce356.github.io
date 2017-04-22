@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Sending Emails With Orchard Modules 
-permalink: sending-emails-with-orchard-modules 
+title: Sending Emails With Orchard Modules
+category: Orchard CMS
+permalink: sending-emails-with-orchard-modules
 ---
 Sending an email in .Net is pretty simple. You just put some settings into an instance of SmtpClient, create a MailMessage and off you go. In Orchard CMS, there are a couple of other ways. While you could still use the SmtpClient directly, there are benefits to doing it the Orchard way.  The first option is to use the new Forms, Tokens, and Rules modules as outlined here: http://www.davidhayden.me/blog/rules-tokens-and-form-api-in-orchard-1.3  This is kind of a content driven approach.  The second option which I will be outlining, is more along the lines of what a Module developer would use.  In fact, option #1 is built on this method!
 
@@ -15,24 +16,24 @@ An implementation of IMessagingChannel is responsible for the low level details 
 
 The IMessageManager interface is what you use to actually trigger sending a message from your module. For example, if you wanted to send an email from your module, it might look something like this.
 {% highlight csharp %}
-namespace MyModule.Services { 
-public class MyService : IMyService { 
-    private readonly IOrchardServices _services; 
-    private readonly IMessageManager _messageManager; 
-    public MyService(IOrchardServices services, IMessageManager messageManager) { 
-      _services = services; 
-      _messageManager = messageManager; 
-    } 
+namespace MyModule.Services {
+public class MyService : IMyService {
+    private readonly IOrchardServices _services;
+    private readonly IMessageManager _messageManager;
+    public MyService(IOrchardServices services, IMessageManager messageManager) {
+      _services = services;
+      _messageManager = messageManager;
+    }
 
-    public void DoSomething() { 
-      var user = _services.WorkContext.CurrentUser.ContentItem.Record; 
-      var data = new Dictionary<string,string>(); 
-      data.Add("Subject", "Your Subject"); 
-      data.Add("Body", "Hello World"); 
-      _messageManager.Send(user, "MyModuleEmail", "email", data); 
-    } 
-  }  
-} 
+    public void DoSomething() {
+      var user = _services.WorkContext.CurrentUser.ContentItem.Record;
+      var data = new Dictionary<string,string>();
+      data.Add("Subject", "Your Subject");
+      data.Add("Body", "Hello World");
+      _messageManager.Send(user, "MyModuleEmail", "email", data);
+    }
+  }
+}
 {% endhighlight %}
 
 *IMessageEventHandler*
@@ -40,23 +41,23 @@ public class MyService : IMyService {
 The IMessageEventHandler interface is what you use to modify your message before sending. e.g. Setting up the body text, subject, etc. Take a look in the Orchard.Users module to see how they setup the user emails. The implementation is called UserMessagesAlteration. Here is how we could handle the message we triggered in our example above.
 
 {% highlight csharp %}
-namespace MyModule.Events { 
-  public class MyMessageHandler : IMessageEventHandler { 
-    public void Sending(MessageContext context){ 
-      if (context.MessagePrepared) 
-        return; 
-      switch (context.Type) { 
-        case "MyModuleEmail": 
-        context.MailMessage.Subject = context.Properties["Subject"]; 
-          context.MailMessage.Body = context.Properties["Body"]; 
-          context.MessagePrepared = true; 
-        break; 
-      } 
-    } 
-  
-    //we don't care about this right now 
-    public void Sent(MessageContext context){} 
-  } 
+namespace MyModule.Events {
+  public class MyMessageHandler : IMessageEventHandler {
+    public void Sending(MessageContext context){
+      if (context.MessagePrepared)
+        return;
+      switch (context.Type) {
+        case "MyModuleEmail":
+        context.MailMessage.Subject = context.Properties["Subject"];
+          context.MailMessage.Body = context.Properties["Body"];
+          context.MessagePrepared = true;
+        break;
+      }
+    }
+
+    //we don't care about this right now
+    public void Sent(MessageContext context){}
+  }
 }
 {% endhighlight %}
 

@@ -1,0 +1,88 @@
+/* Spring
+***************************************************************/
+body.spring {
+  font-family: 'Gentium Basic', serif;
+}
+
+.spring h1, .spring .h1,
+.spring h2, .spring .h3,
+.spring h3, .spring .h4,
+.spring h4, .spring .h5,
+.spring h5, .spring .h5,
+.spring h6, .spring .h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.spring #intro {
+  background: url("../img/spring.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* Summer
+***************************************************************/
+body.summer {
+  font-family: 'Gentium Basic', serif;
+}
+
+.summer h1, .summer .summer h1,
+.summer h2, .summer .summer h3,
+.summer h3, .summer .summer h4,
+.summer h4, .summer .summer h5,
+.summer h5, .summer .summer h5,
+.summer h6, .summer .summer h6 {
+  font-family: 'Cantata One', serif;
+  font-weight: 700;
+}
+
+.summer #intro {
+  background: url("../img/summer.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* Fall
+***************************************************************/
+body.fall {
+  font-family: 'Gentium Basic', serif;
+}
+
+.fall h1, .fall .h1,
+.fall h2, .fall .h3,
+.fall h3, .fall .h4,
+.fall h4, .fall .h5,
+.fall h5, .fall .h5,
+.fall h6, .fall .h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.fall #intro {
+  background: url("../img/circuit-board.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* Winter
+***************************************************************/
+body.winter {
+  font-family: 'Gentium Basic', serif;
+}
+
+.winter h1, .winter .h1,
+.winter h2, .winter .h3,
+.winter h3, .winter .h4,
+.winter h4, .winter .h5,
+.winter h5, .winter .h5,
+.winter h6, .winter .h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.winter #intro {
+  background: url("../img/winter.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

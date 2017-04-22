@@ -1,7 +1,8 @@
 ---
 layout: post
-title: What is Dependency Injection? 
-permalink: what-is-dependency-injection 
+title: What is Dependency Injection?
+category: Software Engineering
+permalink: what-is-dependency-injection
 ---
 
 Dependency injection is a basic object-oriented pattern for complying with [Dependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (DIP).

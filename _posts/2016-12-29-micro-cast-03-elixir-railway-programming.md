@@ -1,6 +1,7 @@
 ---
 title: MicroCast 03 - Elixir Railway Programming
 layout: video
+category: Elixir
 livecoding_embed_url: "https://www.livecoding.tv/brandonjoyce/videos/LAaMw/embed"
 code_download: /downloads/micro_cast_03.zip
 ---
